@@ -1,0 +1,48 @@
+*{
+    font-family: "Zain", sans-serif;
+}
+body{
+    background-color: #100621;
+}
+.home{
+    color: white;
+    height: 100vh;
+    background-image: url(../imgs/home.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.layer{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 1;
+}
+.contain{
+    z-index: 2;
+    text-align: center;
+    h1{
+        font-size: 43px;
+    }
+}
+button{
+    background-color: #482f68;
+    height: 80px;
+    width: 160px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: white;
+    color: #482f68;
+    cursor: pointer;
+}
